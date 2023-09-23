@@ -2,6 +2,31 @@
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+#Color-Palette {
+    /* Primary */
+    /* Moderate violet */
+    color: hsl(263, 55%, 52%);
+    
+    /* Very dark grayish blue */
+    color: hsl(217, 19%, 35%);
+    
+    /* Very dark blackish blue */
+    color: hsl(219, 29%, 14%);
+    
+    /* Whit */
+    color: hsl(0, 0%, 100%);
+    
+    /* Neutral */
+    
+    /* Light gray */
+    color: hsl(0, 0%, 81%);
+    
+    /* Light grayish blue */
+    color: hsl(210, 46%, 95%);
+}
+
