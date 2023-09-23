@@ -6,6 +6,51 @@ body {
     background-color: hsl(0, 0%, 81%);
 }
 
+main {
+    margin: 8vh 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1, h3, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.35rem;
+}
+.commentCard {
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+    padding: 5vh 8vw;
+    border-radius: 2vh;
+    gap: 3vh;
+}
+
+.commentCard > p {
+    color: hsla(0, 0%, 81%, 0.70);
+}
+
+.writerInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+#primaryCard {
+    position: relative;
+    z-index: 10;
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+
+#quotation {
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    right: 8vw;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
