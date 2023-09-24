@@ -1,0 +1,33 @@
+main {
+    grid-template-columns: none;
+    grid-template-areas:
+        "prime prime sec fifth"
+        "third fourth fourth fifth";
+    gap: 2vw;
+    margin: 10vw;
+}
+
+.commentCard {
+    margin: 0vw;
+    padding: 2vw;
+}
+
+#primaryCard {
+    grid-area: prime;
+}
+
+#secondCard {
+    grid-area: sec;
+}
+
+#thirdCard {
+    grid-area: third;
+}
+
+#fourthCard {
+    grid-area: fourth;
+}
+
+#fifthCard {
+    grid-area: fifth;
+}
