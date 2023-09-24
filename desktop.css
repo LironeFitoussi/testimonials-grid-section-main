@@ -1,15 +1,27 @@
 main {
     grid-template-columns: none;
     grid-template-areas:
-        "prime prime sec fifth"
-        "third fourth fourth fifth";
-    gap: 2vw;
+        "prime prime prime sec fifth"
+        "third fourth fourth fourth fifth";
     margin: 10vw;
+    gap: 3vh;
 }
 
 .commentCard {
     margin: 0vw;
-    padding: 2vw;
+    padding: 2.5vw;
+    border-radius: 0.5vw;
+    gap: 1vh;
+    justify-content: space-between;
+}
+
+.commentCard > h1 {
+    font-size: 1.2rem;
+}
+
+.commentCard > p {
+    margin-top: 0vh;
+    font-size: 0.9rem;
 }
 
 #primaryCard {
@@ -30,4 +42,28 @@ main {
 
 #fifthCard {
     grid-area: fifth;
+    justify-content: start;
+    gap: 2vh;
+}
+
+#fifthCard > p {
+    width: 85%;
+    font-size: 0.9rem;
+}
+
+
+.writerInfo {
+    gap: 1vw;
+    height: fit-content;
+}
+
+.writerInfo > img {
+    height: 3vh;
+}
+
+
+#quotation {
+    width: 21%;
+    height: auto;
+    right: 5vw;
 }
